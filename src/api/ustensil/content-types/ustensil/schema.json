@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ustensils",
+  "info": {
+    "singularName": "ustensil",
+    "pluralName": "ustensils",
+    "displayName": "Ustensil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    }
+  }
+}

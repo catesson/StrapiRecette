@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cuisiniers",
+  "info": {
+    "singularName": "cuisinier",
+    "pluralName": "cuisiniers",
+    "displayName": "Cuisinier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CuisinierID": {
+      "type": "uid",
+      "required": true
+    },
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Prenom": {
+      "type": "string",
+      "required": true
+    },
+    "Nationnalite": {
+      "type": "enumeration",
+      "enum": [
+        "Albanais",
+        "Allemand",
+        "Andorran",
+        "Autrichien",
+        "Azéri",
+        "Basque",
+        "Belge",
+        "Biélorusse",
+        "Bosnien",
+        "Britannique",
+        "Bulgare",
+        "Croate",
+        "Danois",
+        "Écossais",
+        "Espagnol",
+        "Estonien",
+        "Finlandais",
+        "Français",
+        "Gallois",
+        "Grec",
+        "Hongrois",
+        "Irlandais",
+        "Islandais",
+        "Italien",
+        "Kosovar",
+        "Letton",
+        "Liechtensteinois",
+        "Lituanien",
+        "Luxembourgeois",
+        "Macédonien",
+        "Maltais",
+        "Moldave",
+        "Monégasque",
+        "Monténégrin",
+        "Néerlandais",
+        "Norvégien",
+        "Polonais",
+        "Portugais",
+        "Roumain",
+        "Russe",
+        "Saint-Marinais",
+        "Serbe",
+        "Slovaque",
+        "Slovène",
+        "Suédois",
+        "Suisse",
+        "Tchèque",
+        "Ukrainien"
+      ]
+    }
+  }
+}

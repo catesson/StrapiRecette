@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plats",
+  "info": {
+    "singularName": "plat",
+    "pluralName": "plats",
+    "displayName": "Plat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Temps": {
+      "type": "integer"
+    },
+    "Parts": {
+      "type": "integer"
+    },
+    "appareils": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::appareil.appareil"
+    },
+    "ustensils": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ustensil.ustensil"
+    },
+    "ingredient_infos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ingredient-info.ingredient-info",
+      "mappedBy": "plat"
+    }
+  }
+}

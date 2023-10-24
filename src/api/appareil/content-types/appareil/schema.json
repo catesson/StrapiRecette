@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appareils",
+  "info": {
+    "singularName": "appareil",
+    "pluralName": "appareils",
+    "displayName": "Appareil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    }
+  }
+}
